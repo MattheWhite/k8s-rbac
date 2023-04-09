@@ -25,7 +25,7 @@ Several building blocks and technologies related to Docker are present in this l
 
 
 ## Tasks of the Project
-The necessary commands with explanation comment lines can be find in `commands.sh` file!
+The necessary commands with explanation comment lines can be find in `rbac-commands.sh` file!
 Under the flask-nginx-docker folder you will find all the necessary files to be able to build the Docker image what is used in the project for deploying containers.
 
 According to the build of a Docker image, you can find all the commands with instructions collected inside the `commands-deploy-application.sh` file. As the name suggests, there are commands to explain how to start and stop an nginx server too.
