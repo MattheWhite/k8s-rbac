@@ -107,7 +107,7 @@ MattheWhite - Fehér Mátyás
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][github-shield]][github-url]
 
-Project Link: [https://github.com/MattheWhite/docker-networking](https://github.com/MattheWhite/docker-networking)
+Project Link: [https://github.com/MattheWhite/docker-networking](https://github.com/MattheWhite/k8s-rbac)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
