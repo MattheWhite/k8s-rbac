@@ -48,7 +48,8 @@ As I mentioned above, Minikube is a great tool for creating a cluster locally on
 The necessary commands with explanation comment lines can be find in `rbac-commands.sh` file!
 Under the flask-nginx-docker folder you will find all the necessary files to be able to build the Docker image what is used in the project for deploying containers.
 
-According to the build of a Docker image, you can find all the commands with instructions collected inside the `commands-deploy-application.sh` file. As the name suggests, there are commands to explain how to start and stop an nginx server too.
+Related to the building the Docker Image, you can find all the commands with instructions collected inside the `commands-deploy-application.sh` file. As the name suggests, there are commands to explain how to start and stop an nginx server too.
+
 
 1. Create a Service Account for your Cluster
     - Your Service Account can be seen when you ask for information about the Service Accounts in your Cluster
@@ -89,6 +90,20 @@ _More about starting with Minikube: https://minikube.sigs.k8s.io/docs/start/_
 
 - Kubectl Docker Image: https://hub.docker.com/r/bitnami/kubectl/
 - Kubectl has a few commands that are very similar to Docker ones. For example, the ```kubectl exec -it mongo-pod -- bash -c "mongo"``` command is the Kubernetes counterpart of ```docker exec -it <CONTAINER_ID> mongo```
+- Set which Kubernetes cluster kubectl communicates with and modifies configuration information.
+```sh
+kubectl config view                           # Show Merged kubeconfig settings.
+
+kubectl config set-cluster my-cluster-name    # set a cluster entry in the kubeconfig
+```
+- `Easiest way to create a Kubernetes Resource in the Cluster with mangaing it's state and changing is using manifest files!`
+```apply``` manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster through running kubectl apply. This is the recommended way of managing Kubernetes applications on production.
+Kubernetes manifests can be defined in YAML or JSON. The file extension .yaml, .yml, and .json can be used.
+```sh
+kubectl apply -f ./my-manifest.yaml            # create resource(s)
+```
+
+_More about managing resources: https://kubernetes.io/docs/concepts/cluster-administration/manage-deployment/_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +131,7 @@ Project Link: [https://github.com/MattheWhite/docker-networking](https://github.
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/MattheWhite/k8s-rbac.svg?style=for-the-badge
-[contributors-url]: https://github.com/MattheWhite/k8s-rbac
+[contributors-url]: https://github.com/MattheWhite
 [kubernetes-shield]: https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white
 [kubernetes-url]: https://kubernetes.io/docs/home/
 [nginx-shield]: https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white
