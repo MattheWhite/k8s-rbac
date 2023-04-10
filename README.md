@@ -51,16 +51,17 @@ As I mentioned above, Minikube is a great tool for creating a cluster locally on
 
 [![Kubernetes][kubernetes-shield]][kubernetes-url]
 [![Nginx][nginx-shield]][nginx-url]
+[![Helm][helm-shield]][helm-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Tasks of the Project
-The necessary commands with explanation comment lines can be find in `rbac-commands.sh` file!
+The necessary commands with explanation comment lines can be find in `commands.sh` file!
 Under the flask-nginx-docker folder you will find all the necessary files to be able to build the Docker image what is used in the project for deploying containers.
 
-Related to the building the Docker Image, you can find all the commands with instructions collected inside the `commands-deploy-application.sh` file. As the name suggests, there are commands to explain how to start and stop an nginx server too.
+You can find a ```helm-rbac-commands.sh``` script file, within I installed and used some Helm Chart and worked with that. Not necessary to the project but it was useful to understand Helm Charts/Templates too.
 
 
 1. Create a Service Account for your Cluster
