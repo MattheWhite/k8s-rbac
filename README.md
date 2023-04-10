@@ -126,6 +126,8 @@ _More about managing resources: https://kubernetes.io/docs/concepts/cluster-admi
 - <i class="far fa-exclamation"></i> [Kubernetes CheatSheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - <i class="far fa-exclamation"></i> [Kubernetes Service Accounts](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
 - <i class="far fa-exclamation"></i> [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
+- <i class="far fa-exclamation"></i> [Helm Quickstart](https://helm.sh/docs/intro/quickstart/)
+- <i class="far fa-exclamation"></i> [Short summary about using Helm Charts](https://circleci.com/blog/what-is-helm/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--emea-en-dsa-tROAS-auth-nb&utm_term=g_-_c__dsa_&utm_content=&gclid=CjwKCAjw586hBhBrEiwAQYEnHQTS-SSBZyYAWOX1vaBkvgi50iShkIfQ7veLTZGdTcBzr3E5wYeZ7hoCkEMQAvD_BwE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
