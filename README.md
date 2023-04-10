@@ -19,6 +19,18 @@
 - The difference between Kubernetes and Docker is more easily understood when framed as a “both-and” question. The fact is, you do not have to choose—Kubernetes and Docker are fundamentally different technologies that work well together for building, delivering and scaling containerised apps.
 
 
+### Helm
+- Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application.
+
+- Charts are easy to create, version, share, and publish — so start using Helm and stop the copy-and-paste.
+
+Not necessary for the project, although a very useful tool when you operate with Kubernetes.
+The following prerequisites are required for a successful and properly secured use of Helm.
+* A Kubernetes cluster
+* Deciding what security configurations to apply to your installation, if any
+* Installing and configuring Helm.
+
+
 In this project I was using AWS EKS to create and manage a cluster in the cloud, but for learning purposes you can use Minikube to simulate a cluster on your local machine too.
 
 `Although one tool is a must and that is kubectl !`
@@ -136,6 +148,8 @@ Project Link: [https://github.com/MattheWhite/docker-networking](https://github.
 [kubernetes-url]: https://kubernetes.io/docs/home/
 [nginx-shield]: https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white
 [nginx-url]: https://www.nginx.com/
+[helm-shield]: https://img.shields.io/badge/helm-blue?logo=helm&style=for-the-badge
+[helm-url]: https://helm.sh/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=349
 [linkedin-url]: https://www.linkedin.com/in/matyas-feher/
 [github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=947
