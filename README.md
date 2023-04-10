@@ -77,7 +77,10 @@ According to the build of a Docker image, you can find all the commands with ins
 ## General requirements
 
 * Kubernetes
-* Minikube
+* Kubectl - As mentioned above this command-line tool is necessary
+* Minikube (or a Cloud Provider with Kubernetes Service, like AWS EKS)
+
+_More about starting with Minikube: https://minikube.sigs.k8s.io/docs/start/_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
