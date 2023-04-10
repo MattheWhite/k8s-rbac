@@ -92,6 +92,8 @@ According to the build of a Docker image, you can find all the commands with ins
 
 ## Background materials
 
+- <i class="far fa-exclamation"></i> [Kubernetes Overview](https://kubernetes.io/docs/concepts/overview/)
+- <i class="far fa-exclamation"></i> [Kubernetes CheatSheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 - <i class="far fa-exclamation"></i> [Kubernetes Service Accounts](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/)
 - <i class="far fa-exclamation"></i> [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 
