@@ -9,10 +9,30 @@
 
 ## About the project
 
-As your Kubernetes knowledge grows and you start to use your knowledge for more and more, it would be worth looking into how you can limit what certain users and processes can do inside your cluster for security purposes.
+### Kubernetes
+- Kubernetes, an extremely popular orchestration tool for containers, has a lot of moving pieces to worry about – and that’s before you even get to see a “Hello World” app. AWS’ managed Kubernetes service, EKS (Elastic Kubernetes Service), is a great option, and facilitates access to other AWS services like IAM, AutoScaling, and CloudWatch.
+
+- Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
+
+
+### Kubernetes and Docker
+- The difference between Kubernetes and Docker is more easily understood when framed as a “both-and” question. The fact is, you do not have to choose—Kubernetes and Docker are fundamentally different technologies that work well together for building, delivering and scaling containerised apps.
+
+
+In this project I was using AWS EKS to create and manage a cluster in the cloud, but for learning purposes you can use Minikube to simulate a cluster on your local machine too.
+
+`Although one tool is a must and that is kubectl !`
+
+`The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs.`
+
+After you Kubernetes knowledge grows and you've mastered the basics, it would be worth looking into how you can limit what certain users and processes can do inside your cluster for security purposes.
 
 Several building blocks and technologies related to Docker are present in this learning project:
 * How to limit what users and processes are able to do inside a cluster
+* How to create Roles, ServiceAccounts in Kubernetes
+* How to bind them together to limit the given K8s Object/Resource's capabilities with Role Binding
+
+As I mentioned above, Minikube is a great tool for creating a cluster locally on your machine, if you have no resource to create one in the clouds (for example: AWS EKS -> Amazon Web Services - Elastic Kubernetes Service).
 
 
 ## Built With
