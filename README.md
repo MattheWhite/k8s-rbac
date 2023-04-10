@@ -4,7 +4,7 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 
-![Kuvernetes](https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2019/01/Kubernetes_New.png?resize=730%2C389&ssl=1)
+![Kubernetes](https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2019/01/Kubernetes_New.png?resize=730%2C389&ssl=1)
 
 
 ## About the project
